@@ -2,7 +2,6 @@ import React from 'react';
 import { moviesData } from '../moviesData';
 
 function Trending() {
-  // أخذ أول 3 مسلسلات فقط كـ توب تريندينج
   const topTrending = moviesData.slice(0, 3);
 
   return (

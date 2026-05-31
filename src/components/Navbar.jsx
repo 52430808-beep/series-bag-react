@@ -3,7 +3,7 @@ import { Navbar as BNavbar, Container, Nav } from 'react-bootstrap';
 import { Link, useLocation } from 'react-router-dom';
 
 function Navbar() {
-  const location = useLocation(); // لمعرفة الصفحة الحالية وتفعيل الـ active link
+  const location = useLocation();
 
   return (
     <BNavbar bg="black" variant="dark" expand="lg" sticky="top" className="navbar">

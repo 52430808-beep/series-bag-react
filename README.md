@@ -1,16 +1,23 @@
-# React + Vite
+# Series' Bag 📽️ - Phase 2
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive, dynamic Movie/Series web application built using **ReactJS** and **Bootstrap**. This project is the Phase 2 evolution of our static web development project.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- **Dynamic Routing:** Powered by `react-router-dom` for seamless page transitions without reloading.
+- **Responsive Design:** Completely optimized for mobile, tablet, and desktop views using Bootstrap's Grid system.
+- **Interactive UI:** Dynamic like/heart toggle button and movie selection.
+- **At least 4 Main Pages:** Home, Trending, About, VIP, and a dedicated dynamic Details page.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Technologies Used
+- ReactJS (Vite)
+- Bootstrap 5 & React-Bootstrap
+- React Icons
+- React Router Dom
 
-## React Compiler
+## 📦 Setup & Installation Instructions
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Follow these steps to run the project locally:
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clone the repository:**
+   ```bash
+git clone https://github.com/52430808-beep/series-bag-react.git
